@@ -5,6 +5,17 @@
   --heading-font-fanily: "Lobster", cursive;
   --general-font-family: "Roboto", sans-serif;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .about {
+    text-align: center;
+  }
+}
 body {
   text-align: center;
 }
@@ -56,11 +67,19 @@ h2 {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 46px;
-  }
-  h2 {
-    font-size: 18px;
-  }
+
+.about {
+  text-align: left;
+}
+.btn-about {
+  background-color: var(--branding-color);
+  border: 4px;
+  color: white;
+  padding: 10px 15px;
+}
+.about p {
+  padding: 20px 0;
+}
+.me {
+  border-radius: 10px;
 }
