@@ -83,3 +83,17 @@ h2 {
 .me {
   border-radius: 10px;
 }
+.work {
+  text-align: center;
+}
+.work h1 {
+  font-size: 36px;
+}
+.work h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.work p {
+  font-size: 14px;
+}
