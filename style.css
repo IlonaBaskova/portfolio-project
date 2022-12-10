@@ -104,6 +104,9 @@ h2 {
 .contact {
   text-align: center;
 }
+.contact a {
+  color: var(--branding-color);
+}
 nav {
   padding: 20px 0;
 }
@@ -139,7 +142,7 @@ nav li.active a {
   margin: 0 40px 40px;
   border-radius: 10px;
 }
-.contact-box h4 {
+.contact-box h3 {
   font-size: 34px;
   text-align: left;
   color: black;
@@ -175,4 +178,11 @@ nav li.active a {
 .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
+}
+.project-link {
+  color: black;
+  font-size: 14px;
+}
+.project-link a {
+  color: var(--branding-color);
 }
